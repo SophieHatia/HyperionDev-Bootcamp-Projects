@@ -1,17 +1,17 @@
-CyclingTime= input("Time taken to complete cycling section= ")
-RunningTime = input("Time taken to complete running section= ")
-SwimmingTime = input("Time taken to complete swimming section= ")
+Cycling_Time= input("Time taken to complete cycling section= ")
+Running_Time = input("Time taken to complete running section= ")
+Swimming_Time = input("Time taken to complete swimming section= ")
 
-TotalTime = float(CyclingTime)+float(RunningTime)+float(SwimmingTime)
-print(TotalTime)
+Total_Time = float(Cycling__Time)+float(Running_Time)+float(Swimming_Time)
+print(Total_Time)
 
-TimeDiff = TotalTime - 100
+Time_Diff = Total_Time - 100
 
-if TimeDiff <= 0:
+if Time_Diff <= 0:
     print("You have been awarded Provincial Colours ")
-elif 1<= TimeDiff and TimeDiff <= 5:
+elif 1<= Time_Diff and Time_Diff <= 5:
     print("You have been awarded Provincial Half Colours")
-elif 6<= TimeDiff  and TimeDiff<= 10:
+elif 6<= Time_Diff  and Time_Diff<= 10:
     print("You have been awarded Provincial Scroll")
 else:
     print("You have not received an award")
