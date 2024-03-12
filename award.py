@@ -1,21 +1,21 @@
 #take inputs for each sport time for the user
-CyclingTime= input("Time taken to complete cycling section= ")
-RunningTime = input("Time taken to complete running section= ")
-SwimmingTime = input("Time taken to complete swimming section= ")
+Cycling_Time= input("Time taken to complete cycling section= ")
+Running_Time = input("Time taken to complete running section= ")
+Swimming_Time = input("Time taken to complete swimming section= ")
 
 #find the totatl time of the triathlon by summing the three times, converting each input to a float from a string
-TotalTime = float(CyclingTime)+float(RunningTime)+float(SwimmingTime)
-print(TotalTime)
+Total_Time = float(Cycling_Time)+float(Running_Time)+float(Swimming_Time)
+print(Total_Time)
 
 #finding the difference in time from the minimum time for an award
-TimeDiff = TotalTime - 100
+Time_Diff = Total_Time - 100
 
 #creating if statements to check the time difference to the award given for the times
-if TimeDiff <= 0:
+if Time_Diff <= 0:
     print("You have been awarded Provincial Colours ")
-elif 1<= TimeDiff and TimeDiff <= 5:
+elif 1<= Time_Diff and Time_Diff <= 5:
     print("You have been awarded Provincial Half Colours")
-elif 6<= TimeDiff  and TimeDiff<= 10:
+elif 6<= Time_Diff  and Time_Diff<= 10:
     print("You have been awarded Provincial Scroll")
 else:
     print("You have not received an award")
