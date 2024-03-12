@@ -2,7 +2,7 @@ Cycling_Time= input("Time taken to complete cycling section= ")
 Running_Time = input("Time taken to complete running section= ")
 Swimming_Time = input("Time taken to complete swimming section= ")
 
-Total_Time = float(Cycling__Time)+float(Running_Time)+float(Swimming_Time)
+Total_Time = float(Cycling_Time)+float(Running_Time)+float(Swimming_Time)
 print(Total_Time)
 
 Time_Diff = Total_Time - 100
