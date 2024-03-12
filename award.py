@@ -1,4 +1,5 @@
 #take inputs for each sport time for the user
+
 Cycling_Time= input("Time taken to complete cycling section= ")
 Running_Time = input("Time taken to complete running section= ")
 Swimming_Time = input("Time taken to complete swimming section= ")
@@ -11,6 +12,12 @@ print(Total_Time)
 Time_Diff = Total_Time - 100
 
 #creating if statements to check the time difference to the award given for the times
+
+Total_Time = float(Cycling_Time)+float(Running_Time)+float(Swimming_Time)
+print(Total_Time)
+
+Time_Diff = Total_Time - 100
+
 if Time_Diff <= 0:
     print("You have been awarded Provincial Colours ")
 elif 1<= Time_Diff and Time_Diff <= 5:
